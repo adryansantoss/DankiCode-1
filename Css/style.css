@@ -256,11 +256,4 @@ li+li {
     .icon1 {
         margin-top: 0px;
     }
-    .container-block p {
-        font-size: 15px;
-    }
-    .container-block p,
-    .container-block h2 {
-        width: 300px;
-    }
 }
