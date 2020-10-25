@@ -215,7 +215,7 @@ li+li {
     clear: both;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1170px) {
     .header {
         width: 100%;
         height: auto;
@@ -236,12 +236,24 @@ li+li {
         top: 0;
     }
     .container-list {
-        margin: 0;
+        float: none;
+        margin: 0 auto;
         width: 100%;
-        max-width: 470px;
-        text-align: center;
+        max-width: 600px;
     }
     .form button {
         margin-left: 0;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+    .Icons {
+        margin-top: 100px;
+        width: 100%;
+        max-width: 400px;
+    }
+    .icon1 {
+        margin-top: 0px;
     }
 }
